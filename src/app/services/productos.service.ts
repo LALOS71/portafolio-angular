@@ -57,9 +57,7 @@ export class ProductosService {
       } else {
         //aplicar el filtro
         this.filtrarProductos( termino );
-      }
-
-       
+      }       
     }
     
     private filtrarProductos( termino: string ) {
